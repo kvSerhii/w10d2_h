@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#sliderContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 50%;
+    border: 1px solid red;
+    object-fit: cover;
+}
+
+#image {
+    height: 90%;
+    object-fit: cover;
+}
+
+ul,
+li,
+div,
+p,
+a {
+    border: 3px solid red;
+    padding: 20px;
+}
+
+.divTest {
+    font-size: 32px;
+    color: blueviolet;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.divTest2 {
+    font-size: 24px;
+    color: black;
+    padding: 10px;
+    border: 2px solid green;
+}
+
+.inputElem {
+    color: darkblue;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.ouputDiv {
+    padding: 5px;
+    background-color: darkgray;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
